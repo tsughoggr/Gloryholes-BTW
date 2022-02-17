@@ -90,7 +90,6 @@ public class TSGGloryhole extends FCAddOn{
 	}
 	public void
 	ReplaceBlocks(){
-		Block.replaceBlock(20, TSGBlockGlass.class, this, new Object[]{} );
 	}
 	public void
 	InitializeBlocks(){
