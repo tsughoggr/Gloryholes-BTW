@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tsggloryholes",
+  "version": "${version}",
+
+  "name": "Tsughoggr's Gloryholes and Blow",
+  "description": "Would you be my... Smooth Buddy?",
+  "authors": [
+    "Tsughoggr"
+  ],
+  "contact": {
+    "homepage": "https://bonequest.net/@objtype",
+    "sources": "https://127.0.0.1/"
+  },
+
+  "license": "Public Domain",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "init": [
+      "net.fabricmc.tsughoggr.TSGGloryholes"
+    ],
+    "preLaunch": [
+      "net.fabricmc.tsughoggr.TSGGloryholesPrelaunchInitializer"
+    ]
+  },
+  "mixins": [
+    "gloryholes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
